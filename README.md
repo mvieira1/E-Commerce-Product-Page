@@ -1,4 +1,4 @@
-# E-Commerce Product Page
+# E-Commerce Product Page ##(Intermediate)
 
 This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6). <br/> Solution developed for Mobile View (<=480px) and Desktop View (>=1201px).
 
