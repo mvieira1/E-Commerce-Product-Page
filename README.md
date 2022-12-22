@@ -9,7 +9,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 - [What I learned](#what-i-learned)
 - [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
-- [Screenshots](#screenshot)
+- [Screenshots](#screenshots)
 
 ### The challenge
 
@@ -76,7 +76,8 @@ if(mediaQueryList.matches === true){
 ### Useful resources
 
 - [Convert Hex colors to CSS filter](https://isotropic.co/tool/hex-color-to-css-filter/) - This helped me to change the color of an svg image, whenever the user hovers over it, without needing to create a copy with a different fill
-- [MediaQueryList and 'change' event](https://www.w3schools.com/howto/howto_js_media_queries.asp) and (https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/change_event)
+- [MediaQueryList](https://www.w3schools.com/howto/howto_js_media_queries.asp)
+- [Change Event](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/change_event)
 
 ### Screenshots
 
