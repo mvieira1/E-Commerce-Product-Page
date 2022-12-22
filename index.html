@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+
+    <!-- Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS External File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript External File -->
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="black-filter"></div>
+    <header>
+        <nav>
+            <img src="images/icon-menu.svg" alt="burger menu" class="burger-menu">
+
+            <a href="index.html" class="logo"><img src="images/logo.svg" alt="logo"></a>
+
+            <ul class="nav-options">
+                <img src="images/icon-close.svg" alt="close" class="close-menu">
+
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            
+            <!-- Tinha criado um div.nav-container, com a img.close-menu e o ul.nav-options, mas acho que faz mais sentido colocar a <img> dentro do <ul> -->
+
+            <div class="user-info">
+
+                <div class="cart">
+                    <img src="images/icon-cart.svg" alt="shopping-cart" class="shopping-cart">
+                    <div class="cart-filled"></div>
+                </div>
+
+                <!--coloquei o <img> tag e o div.cart-filled dentro do mesmo container pq, se não o fizesse, ao posicionar o div.cart-filled relativamente ao parente mais próximo com posição relativa, à medida que o ecrã diminui, o div.cart-filled ia sair de cima do shopping-cart. Assim, ao coloca-lo dentro do container que tem também o shopping-cart, ele não tem muito por onde fugir e não preciso de estar, constantemente, a ajustar a sua posição, consoante a screen width-->
+
+                <img src="images/image-avatar.png" alt="user-photo" class="user-photo">
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="left-container">
+            <img src="images/image-product-1.jpg" alt="sneakers image" class="bigger-image">
+
+            <div class="galery">
+                <img src="images/image-product-1-thumbnail.jpg" alt="sneakers 1" class="selected">
+                <img src="images/image-product-2-thumbnail.jpg" alt="sneakers 2">
+                <img src="images/image-product-3-thumbnail.jpg" alt="sneakers 3">
+                <img src="images/image-product-4-thumbnail.jpg" alt="sneakers 4">
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div>
+                <h5 class="spacing">SNEAKER COMPANY</h5>
+                <h1>Fall Limited Edition Sneakers</h1>
+            </div>
+            
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a double rubber outer sole, they'll withstand everything the weather can offer.</p>
+
+            <div class="price">
+                <div>
+                    <h3>$125.00</h3>
+                    <h5>50%</h5>
+                </div>
+                <p class="old-price">$250.00</p>
+            </div>
+
+            <div class="bottom-section">
+                <div class="count">
+                    <div class="minus"><img src="images/icon-minus.svg" alt="minus"></div>
+                    <span class="items-number">0</span>
+                    <div class="plus"><img src="images/icon-plus.svg" alt="plus"></div>
+                </div>
+
+                <!--tinha colocado só os img tag, sem os div.minus e div.plus, mas a user experience não ia ser muito boa pq o utilizador ia ter mesmo de clicar em cima do menos e do mais. Assim tem mais espaço para clicar-->
+
+                <div class="add-to-cart">
+                    <img src="images/icon-cart-white.svg" alt="shopping cart">
+                    Add to cart
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Editar em JavaScript, conforme os items adicionados ao carrinho -->
+    <div class="cart-items display-none">
+        <div class="header">
+            Cart
+        </div>
+
+        <div class="empty-cart">
+            Your cart is empty.
+        </div>
+    </div>
+
+    <!-- Lightbox - pus isto e o div anterior fora do main, pq não fazem parte da 'layer' principal da página, então acho que é o que faz sentido... -->
+    <div class="lightbox"> <!-- width, height = 100% -->
+        <div class="lightbox-container"> <!-- width = 35% -->
+            <div class="flex-end"><img src="images/icon-close-lightbox.svg" alt="close" class="close-lightbox"></div>
+
+            <div class="display">
+                <img src="images/image-product-1.jpg" alt="sneakers image" class="lightbox-image">
+                <div class="next"><img src="images/icon-next.svg" alt="next"></div>
+                <div class="previous"><img src="images/icon-previous.svg" alt="previous"></div>
+            </div>
+            
+            <div class="thumbnail">
+                <img src="images/image-product-1-thumbnail.jpg" alt="sneakers 1">
+                <img src="images/image-product-2-thumbnail.jpg" alt="sneakers 2">
+                <img src="images/image-product-3-thumbnail.jpg" alt="sneakers 3">
+                <img src="images/image-product-4-thumbnail.jpg" alt="sneakers 4">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
