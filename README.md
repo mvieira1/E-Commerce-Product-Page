@@ -1,4 +1,4 @@
-# Frontend Mentor - E-commerce product page solution
+# E-commerce Product Page
 
 This is a solution to the [E-commerce product page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6).
 
@@ -9,7 +9,7 @@ This is a solution to the [E-commerce product page challenge on Frontend Mentor]
 - [What I learned](#what-i-learned)
 - [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
-- [Screenshot](#screenshot)
+- [Screenshots](#screenshot)
 
 ### The challenge
 
@@ -23,19 +23,6 @@ Users should be able to:
 - Switch the product image to the next or previous on, by clicking on the buttons
 - Add items to the cart
 - View the cart and remove items from it
-
-### Screenshot
-
-![](screenshots/screenshot-desktop-view.PNG)
-![](screenshots/screenshot-desktop-view-active-states-empty-cart.PNG)
-![](screenshots/screenshot-desktop-view-active-states-filled-cart.PNG)
-![](screenshots/screenshot-desktop-view-lightbox.PNG)
-
-![](screenshots/screenshot-mobile-view.PNG)
-![](screenshots/screenshot-mobile-view-empty-cart.PNG)
-![](screenshots/screenshot-mobile-view-filled-cart.PNG)
-![](screenshots/screenshot-mobile-view-navbar.PNG)
-
 
 ### Built with
 
@@ -88,3 +75,15 @@ if(mediaQueryList.matches === true){
 
 - [Convert Hex colors to CSS filter](https://isotropic.co/tool/hex-color-to-css-filter/) - This helped me to change the color of an svg image, whenever the user hovers over it, without needing to create a copy with a different fill
 - [MediaQueryList and 'change' event](https://www.w3schools.com/howto/howto_js_media_queries.asp) and (https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/change_event)
+
+### Screenshots
+
+![](screenshots/screenshot-desktop-view.PNG)
+![](screenshots/screenshot-desktop-view-active-states-empty-cart.PNG)
+![](screenshots/screenshot-desktop-view-active-states-filled-cart.PNG)
+![](screenshots/screenshot-desktop-view-lightbox.PNG)
+
+![](screenshots/screenshot-mobile-view.PNG)
+![](screenshots/screenshot-mobile-view-empty-cart.PNG)
+![](screenshots/screenshot-mobile-view-filled-cart.PNG)
+![](screenshots/screenshot-mobile-view-navbar.PNG)
