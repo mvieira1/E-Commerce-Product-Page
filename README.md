@@ -29,6 +29,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- Media Queries
+- Vanilla JavaScript ES6+
 - Desktop-first workflow
 
 ### What I learned
@@ -65,7 +67,7 @@ if(mediaQueryList.matches === true){
 };
 
 
-//NOTA: Alterei o código para, no lugar de detetar alterações de media queries/dimensões do ecrã, detetar, simplesmente, em que range é que a dimensão atual se encontra. Esta opção faz mais sentido para mim, visto que: (1) na realidade, não posso esticar a janela de visualização do meu dispositivo. Podia simular as transições, num teste de responsiveness, usando as ferramentas de programador, mas isso não é muito relevante para o utilizador comum. (2) ao usar o evento 'change', só quando passasse por um limite de uma media query é que ia testar se a width do meu ecrã estava dentro ou não.. ou seja, se abrisse a página no Desktop, não ia ver lightbox nenhuma pq o display ia continuar set to none. Assim (conforme o código está), se abre a página do tlmv, não vê lightbox; se abre no pc, vê lightbox e pronto. Só não me posso esquecer, enquanto programadora, de quando for testar a responsividade ter de atualizar a página. Pq se abro no desktop e depois diminuir o ecrã para mobile, se clicar na imagem, a lightbox vai aparecer na mesma pq a página foi aberta em desktop (e vice-versa). O user não vai ter este ""problema"".
+//NOTA: Alterei o código para, no lugar de detetar alterações de media queries/dimensões do ecrã, detetar, simplesmente, em que range é que a dimensão atual se encontra. Esta opção faz mais sentido para mim, visto que: (1) na realidade, não posso esticar a janela de visualização do meu dispositivo. Podia simular, eventualmente, as transições, num teste de responsiveness, usando as ferramentas de programador, mas isso não é muito relevante para o utilizador comum. (2) ao usar o evento 'change', só quando passasse por um limite de uma media query é que ia testar se a width do meu ecrã estaria dentro ou não... ou seja, se abrisse a página no Desktop, não ia ver lightbox nenhuma pq o display ia continuar set to none. Assim (conforme o código está), se abre a página do tlmv, não vê lightbox; se abre no pc, vê lightbox e pronto. Só não me posso esquecer, enquanto programadora, de quando for testar a responsividade ter de atualizar a página. Pq se abro no desktop e depois diminuir o ecrã para mobile, se clicar na imagem, a lightbox vai aparecer na mesma pq a página foi aberta em desktop (e vice-versa). O user não vai ter este ""problema"".
 ```
 
 ### Continued development
