@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const emptyCart = document.querySelector('.empty-cart');
 
     //NOTA:
-    //Se o utilizador adicionar 5 artigos depois de adicionar 2, por ex., a quantidade de artigos no carrinho é acumulada (5+2 = 10). Não sei se era isso que pretendiam com o desafio, mas faz mais sentido para mim do que substituir o número de artigos anterior.
+    //Se o utilizador adicionar 5 artigos depois de adicionar 2, por ex., a quantidade de artigos no carrinho é acumulada (5+2 = 7). Não sei se era isso que pretendiam com o desafio, mas faz mais sentido para mim do que substituir o número de artigos anterior.
     //Em E-commerce sites, como Amazon, por ex., é assim que funciona também.
 
     let acc = 0;
