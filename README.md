@@ -36,7 +36,7 @@ Users should be able to:
 
 - How to build a full-length navbar with a smooth translation;
 - How to apply filter effects to an element (ex., an svg image);
-- How to target different screen sizes, by checking the media queries, in JavaScript (MediaQueryList, matches property and 'change' event (not used, but learned));
+- How to target different screen sizes, by checking the media queries, in JavaScript (MediaQueryList, matches property and 'change' event (not used, but learned))
 
 ```js
 //ANTES
