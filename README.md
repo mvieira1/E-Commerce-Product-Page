@@ -70,6 +70,7 @@ if(mediaQueryList.matches === true){
 ```
 
 ### Continued development
+- How to detect a finger swipe through JavaScript (Mobile View)
 - An equivalent solution for iPad, tablet & other small screens
 
 ### Useful resources
